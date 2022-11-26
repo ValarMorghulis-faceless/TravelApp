@@ -15,6 +15,7 @@
 		0F18350E292ECE870007B8ED /* LocationCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F18350D292ECE870007B8ED /* LocationCarouselView.swift */; };
 		0F183510292ED2FD0007B8ED /* FilterButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F18350F292ED2FD0007B8ED /* FilterButtonsView.swift */; };
 		0F183512292EDCCE0007B8ED /* PlaceVardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F183511292EDCCE0007B8ED /* PlaceVardView.swift */; };
+		0F5244C0292FF51C00B7A6DD /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5244BF292FF51C00B7A6DD /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0F18350D292ECE870007B8ED /* LocationCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCarouselView.swift; sourceTree = "<group>"; };
 		0F18350F292ED2FD0007B8ED /* FilterButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonsView.swift; sourceTree = "<group>"; };
 		0F183511292EDCCE0007B8ED /* PlaceVardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceVardView.swift; sourceTree = "<group>"; };
+		0F5244BF292FF51C00B7A6DD /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				0F18350D292ECE870007B8ED /* LocationCarouselView.swift */,
 				0F18350F292ED2FD0007B8ED /* FilterButtonsView.swift */,
 				0F183511292EDCCE0007B8ED /* PlaceVardView.swift */,
+				0F5244BF292FF51C00B7A6DD /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				0F183510292ED2FD0007B8ED /* FilterButtonsView.swift in Sources */,
 				0F18350E292ECE870007B8ED /* LocationCarouselView.swift in Sources */,
 				0F183512292EDCCE0007B8ED /* PlaceVardView.swift in Sources */,
+				0F5244C0292FF51C00B7A6DD /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
