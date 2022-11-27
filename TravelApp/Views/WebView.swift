@@ -11,14 +11,30 @@ import SwiftUI
 import WebKit
 
 struct WebView: UIViewRepresentable {
+    
     typealias UIViewType = UIView
     
     func makeUIView(context: Context) -> UIView {
-        <#code#>
+        let view = UIView()
+        
+        let webView = WKWebView()
+        view.addSubview(webView)
+        
+        webView.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            webView.widthAnchor.constraint(equalTo: view.widthAnchor),
+            webView.heightAnchor.constraint(equalTo: view.heightAnchor),
+            webView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            webView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            
+        ])
+        
+        return view
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
-        <#code#>
+        
     }
     
     
